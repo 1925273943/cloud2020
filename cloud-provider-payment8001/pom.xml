@@ -23,6 +23,11 @@
             <type>pom</type>
             <scope>import</scope>
         </dependency>
+        <!--   包含了sleuth+zipkin     -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
 
         <!--   web和actuator是标配 要一起导入  不然有些东西显示不出来比如服务名称显示IP地址     -->
         <dependency>

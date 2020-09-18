@@ -81,4 +81,8 @@ public class PaymentController {
         }
         return serverpost;
     }
+    @GetMapping("/payment/zipkin")
+    public String paymentZipKin(){
+        return "hi ,i'am payment";
+    }
 }
